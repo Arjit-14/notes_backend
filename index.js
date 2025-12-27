@@ -8,7 +8,7 @@ const jwt = require("jsonwebtoken");
 
 const app = express();
 
-const port = process.env.port || 9876;
+const port = process.env.PORT || 9876;
 
 app.use(cors());
 app.use(express.json());
